@@ -1,0 +1,25 @@
+{
+  "name": "jjviz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo src/index.js:static/bundle.js --live",
+    "build": "browserify src/index.js -o static/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^9.0.0"
+  },
+  "dependencies": {
+    "gl-mat4": "^1.1.4",
+    "gl-vec3": "^1.0.3",
+    "js-yaml": "^3.6.1",
+    "query-string": "^4.2.3",
+    "regl": "^1.1.1",
+    "resl": "^1.0.3",
+    "trackball-controller": "^1.1.1"
+  }
+}
